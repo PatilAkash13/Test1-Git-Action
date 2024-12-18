@@ -17,7 +17,7 @@ namespace Company.Function
         [Function("HttpTrigger2")]
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            _logger.LogInformation("test 2nd trigger");
+            _logger.LogInformation("did at night");
             return new OkObjectResult("Welcome to Azure Functions!");
         }
     }
