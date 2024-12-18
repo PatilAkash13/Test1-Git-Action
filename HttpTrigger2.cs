@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("did at night");
-            return new OkObjectResult("Welcome to Azure Functions!");
+            return new OkObjectResult("Welcome to Azure Functions! Deployment done via Github actions");
         }
     }
 }
