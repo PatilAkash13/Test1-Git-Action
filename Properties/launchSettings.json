@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Test1_Git_Action": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7228",
+      "launchBrowser": false
+    }
+  }
+}
