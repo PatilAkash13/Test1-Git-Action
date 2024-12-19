@@ -18,7 +18,7 @@ namespace Company.Function
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             _logger.LogInformation("did at night");
-            return new OkObjectResult("Testing done via github actions");
+            return new OkObjectResult("Testing done via github actions - DEPLOYMENT ON 19TH DEC 4.40PM");
         }
     }
 }
